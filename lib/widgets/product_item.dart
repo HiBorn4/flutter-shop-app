@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../providers/auth.dart';
 import '../screens/product_detail_screen.dart';
 import '../providers/product.dart';
 import '../providers/cart.dart';
@@ -18,6 +19,7 @@ class ProductItem extends StatelessWidget {
   Widget build(BuildContext context) {
     final product = Provider.of<Product>(context, listen: false);
     final cart = Provider.of<Cart>(context, listen: false);
+    final authData = Provider.of<Auth>(context, listen: false);
     return ClipRRect(
       borderRadius: BorderRadius.circular(10),
       child: GridTile(
@@ -30,7 +32,7 @@ class ProductItem extends StatelessWidget {
               ),
               color: Theme.of(context).colorScheme.secondary,
               onPressed: () {
-                product.toggleFavoriteStatus();
+                product.toggleFavoriteStatus(authData.token, authData.userId);
               },
             ),
           ),
@@ -68,6 +70,15 @@ class ProductItem extends StatelessWidget {
             Navigator.of(context).pushNamed(
               ProductDetailScreen.routeName,
               arguments: product.id,
+            );
+            Hero(
+              tag: product.id,
+              child: FadeInImage(
+                placeholder:
+                    const AssetImage('assets/images/product-placeholder.png'),
+                image: NetworkImage(product.imageUrl),
+                fit: BoxFit.cover,
+              ),
             );
           },
           child: Image.network(
