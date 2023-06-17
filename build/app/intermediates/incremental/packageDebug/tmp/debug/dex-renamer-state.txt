@@ -1,0 +1,4 @@
+#Fri Jun 16 19:26:22 CDT 2023
+base.0=/home/hiborn4/Shop App/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
