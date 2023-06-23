@@ -1,10 +1,11 @@
 # Flutter Shop App
 
 <p>
-  <img src="scrrenshots/prod_over.jpg" alt="Home Screen" width="300">
+  <img src="scrrenshots/auth.jpg" alt="Home Screen" width="300">
   <br>
-  <em>The home screen displays featured products and categories for easy navigation.</em>
+  <em>Users can easily signup and login with their gmail and password.</em>
 </p>
+
 
 Welcome to the Flutter Shop App repository! This is a powerful and customizable e-commerce application built with Flutter, designed to provide a seamless shopping experience for your users. Whether you're starting a new online store or looking to enhance your existing Flutter project, this app is a perfect fit.
 
@@ -26,10 +27,11 @@ Welcome to the Flutter Shop App repository! This is a powerful and customizable 
 
 Here are some screenshots of the Flutter Shop App in action:
 
+
 <p>
-  <img src="scrrenshots/auth.jpg" alt="Home Screen" width="300">
+  <img src="scrrenshots/prod_over.jpg" alt="Home Screen" width="300">
   <br>
-  <em>Users can easily signup and login with their gmail and password.</em>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
 </p>
 
 <p>
