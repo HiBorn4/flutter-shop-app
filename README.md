@@ -27,10 +27,59 @@ Welcome to the Flutter Shop App repository! This is a powerful and customizable 
 Here are some screenshots of the Flutter Shop App in action:
 
 <p>
-  <img src="screenshots/home_screen.png" alt="Home Screen" width="300">
+  <img src="scrrenshots/auth.jpg" alt="Home Screen" width="300">
   <br>
   <em>The home screen displays featured products and categories for easy navigation.</em>
 </p>
+
+<p>
+  <img src="scrrenshots/drawer.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/order_history.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/order.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/item2.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/item1.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/fav.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/add_prod.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
+<p>
+  <img src="scrrenshots/add_orders.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
+
 
 ## Getting Started
 
