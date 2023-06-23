@@ -1,6 +1,6 @@
 # Flutter Shop App
 
-![Flutter Shop App](screenshots/prod_over.jpg)
+![Flutter Shop App](scrrenshots/prod_over.jpg)
 
 Welcome to the Flutter Shop App repository! This is a powerful and customizable e-commerce application built with Flutter, designed to provide a seamless shopping experience for your users. Whether you're starting a new online store or looking to enhance your existing Flutter project, this app is a perfect fit.
 
