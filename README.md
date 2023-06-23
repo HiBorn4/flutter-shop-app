@@ -1,6 +1,10 @@
 # Flutter Shop App
 
-![Flutter Shop App](scrrenshots/prod_over.jpg)
+<p>
+  <img src="scrrenshots/prod_over.jpg" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
 
 Welcome to the Flutter Shop App repository! This is a powerful and customizable e-commerce application built with Flutter, designed to provide a seamless shopping experience for your users. Whether you're starting a new online store or looking to enhance your existing Flutter project, this app is a perfect fit.
 
