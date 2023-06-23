@@ -15,7 +15,7 @@ class AppDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           AppBar(
-            title: const Text('Hello Friend!'),
+            title: const Text('Shop Now!'),
             automaticallyImplyLeading: false,
           ),
           const Divider(),

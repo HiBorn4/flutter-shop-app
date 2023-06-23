@@ -20,6 +20,22 @@ void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
+  final blackMaterialColor = const MaterialColor(
+    0xFF000000, // The primary color value for black
+    <int, Color>{
+      50: Color(0xFF000000), // Specify shades if needed
+      100: Color(0xFF000000),
+      200: Color(0xFF000000),
+      300: Color(0xFF000000),
+      400: Color(0xFF000000),
+      500: Color(0xFF000000),
+      600: Color(0xFF000000),
+      700: Color(0xFF000000),
+      800: Color(0xFF000000),
+      900: Color(0xFF000000),
+    },
+  );
+
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -53,13 +69,17 @@ class MyApp extends StatelessWidget {
         builder: (ctx, auth, _) => MaterialApp(
           title: 'MyShop',
           theme: ThemeData(
-              fontFamily: 'Lato',
-              colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple)
-                  .copyWith(secondary: Colors.deepOrange),
-              pageTransitionsTheme: PageTransitionsTheme(builders: {
-                TargetPlatform.android: CustomPageTransitionBuilder(),
-                TargetPlatform.iOS: CustomPageTransitionBuilder(),
-              })),
+            fontFamily: 'Lato',
+            colorScheme: ColorScheme.fromSwatch(
+              primarySwatch: blackMaterialColor,
+              backgroundColor: Colors.white, // Set background color to white
+              cardColor: Colors.white, // Set card color to white
+            ).copyWith(secondary: Colors.white),
+            pageTransitionsTheme: PageTransitionsTheme(builders: {
+              TargetPlatform.android: CustomPageTransitionBuilder(),
+              TargetPlatform.iOS: CustomPageTransitionBuilder(),
+            }),
+          ),
           home: auth.isAuth
               ? const ProductsOverviewScreen()
               : FutureBuilder(
