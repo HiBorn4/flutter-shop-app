@@ -22,14 +22,11 @@ Welcome to the Flutter Shop App repository! This is a powerful and customizable 
 
 Here are some screenshots of the Flutter Shop App in action:
 
-![Home Screen](screenshots/home_screen.png)
-_The home screen displays featured products and categories for easy navigation._
-
-![Product Details Screen](screenshots/product_details_screen.png)
-_Detailed product information and reviews help users make informed decisions._
-
-![Cart Screen](screenshots/cart_screen.png)
-_Users can easily manage their shopping cart, update quantities, and proceed to checkout._
+<p>
+  <img src="screenshots/home_screen.png" alt="Home Screen" width="300">
+  <br>
+  <em>The home screen displays featured products and categories for easy navigation.</em>
+</p>
 
 ## Getting Started
 
